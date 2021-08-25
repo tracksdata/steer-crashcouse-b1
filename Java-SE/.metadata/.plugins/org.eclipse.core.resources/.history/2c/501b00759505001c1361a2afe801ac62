@@ -1,0 +1,38 @@
+
+package com;  // => 1
+import java.util.Calendar; // => 2
+
+/* 
+ * 1. package declarations - should have only one
+ * 2. import statement to import other classes into this class. can use more than one
+ * 3. class declaration . more than one 
+ * 
+ *   Inside class?
+ *   -------------------
+ *   1. fields / properties / variables
+ *   2. constructors
+ *   3. methods
+ *   4. blocks
+ *
+
+ */
+
+// => 3
+class C1{}
+class C2{}
+class C3{}
+
+
+
+public class Demo {
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+	}
+
+}

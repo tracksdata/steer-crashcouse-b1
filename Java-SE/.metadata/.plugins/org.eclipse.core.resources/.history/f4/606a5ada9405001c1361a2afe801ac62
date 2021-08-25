@@ -1,0 +1,19 @@
+package com;
+
+/* 
+ * 1. package declarations - should have only one
+ * 
+ * 
+ */
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+	}
+
+}

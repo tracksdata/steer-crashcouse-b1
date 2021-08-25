@@ -1,0 +1,21 @@
+
+package com;
+
+/* 
+ * 1. package declarations - should have only one
+ * 2. import statement to import other classes into this class. can use more than onex
+ * 
+ * 
+ */
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+
+	}
+
+}
