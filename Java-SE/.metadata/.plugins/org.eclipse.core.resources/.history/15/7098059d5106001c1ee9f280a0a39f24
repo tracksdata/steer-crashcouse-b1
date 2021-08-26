@@ -1,0 +1,48 @@
+package com;
+
+public class Sample {
+	
+	/*
+	 *  1. fields -  behaviour
+	 *  2. methods - actions
+	 *  
+	 * 		fields have common behaviour across all objects
+	 * 		methods changes common behaviour of fields of a object
+	 * 
+	 *  		
+	 * 
+	 */
+	
+	// instance fields
+	int x; // instance field
+	static int y; // static field
+	
+	void increment() {
+		x=x+1;
+	}
+
+	public static void main(String[] args) {
+		Sample s1=new Sample();
+			s1.x=10;
+		System.out.println("S1-X: "+s1.x);
+		
+		s1.increment(); // changes x value
+		
+		System.out.println("S1-X: "+s1.x);
+		
+		
+		Sample s2=new Sample();
+			s2.x=20;
+			System.out.println("S2-X: "+s2.x);
+			s2.increment();
+			System.out.println("S2-X: "+s2.x);
+			
+			System.out.println("S1-X: "+s1.x);
+			
+		Sample s3=new Sample();
+			s3.x=30;
+		
+		
+		
+	}
+}

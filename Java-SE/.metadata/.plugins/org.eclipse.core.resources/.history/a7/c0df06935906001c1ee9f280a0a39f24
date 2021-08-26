@@ -1,0 +1,35 @@
+package com;
+
+public class Employee {
+
+	int empId;
+	String empName;
+	double salary;
+	
+	void processSalary() {
+		
+	}
+	
+
+	public static void main(String[] args) {
+		
+		Employee e1=new Employee();
+		Employee e2=new Employee();
+		Employee e3=new Employee();
+		
+		e1.empId=10;
+		e1.empName="Sam";
+		
+		e2.empId=10;
+		e2.empName="Sam";
+		
+		e3.empId=10;
+		e3.empName="Sam";
+		
+		
+		
+		
+
+	}
+
+}

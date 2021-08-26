@@ -1,0 +1,12 @@
+package com;
+
+public class Person {
+	
+	int id;
+	String name;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

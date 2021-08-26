@@ -1,0 +1,18 @@
+package com;
+
+public class Person {
+	
+	int id;
+	String name;
+	
+	void setData(int s1,String s2) { // here id and name are local to the setData method
+		id=s1;
+		name=s2;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

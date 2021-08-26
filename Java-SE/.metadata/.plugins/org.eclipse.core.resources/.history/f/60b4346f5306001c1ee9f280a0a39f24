@@ -1,0 +1,40 @@
+package com;
+
+public class Sample {
+	
+	/*
+	 *  1. fields -  behaviour
+	 *  2. methods - actions
+	 *  
+	 * 		-> fields have common behaviour across all objects
+	 * 		-> methods changes  behaviour of fields of a object
+	 * 
+	 * 
+	 *  instance Fields
+	 *  -----------------
+	 *  	-> instance fields are unique to across objects
+	 *  
+	 *  		
+	 * 
+	 */
+	
+	// instance fields
+	int x; // instance field
+	static int y; // static field
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+	
+		
+			
+	}
+}
+
+
+
+

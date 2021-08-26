@@ -1,0 +1,25 @@
+package com;
+
+
+public class Methods {
+	
+	/*
+	 * Notes
+	 * ----------
+	 * 	-> every method in in java must return a value. if no value to be return, then return type must be 'void'
+	 * 	-> method must return only one value
+	 * 
+	 * Types of methods in java  : 4 types
+	 * -------------------------------------
+	 * 	1. method without return type and with out arguments
+	 *  2. method with return type and with out arguments
+	 *  3. method without return type and with arguments
+	 *  4. method with return type and with arguments
+	 */
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

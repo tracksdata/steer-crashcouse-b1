@@ -1,0 +1,40 @@
+package com;
+
+public class Sample {
+	
+	/*
+	 * 1. fields - behaviour 2. methods - actions
+	 * 
+	 * -> fields have common behaviour across all objects -> methods changes
+	 * behaviour of fields of a object
+	 * 
+	 * 
+	 * instance Fields ----------------- -> instance fields are unique to across
+	 * objects -> instance data must be accessed with a object from static methods
+	 * -> instance data never accessible from static methods -> to access instance
+	 * data from static methods we need object creation
+	 * 
+	 * When to create object? =============================== => to access instance
+	 * data from a static method from the same class => to access instance data from
+	 * a static / non-static methods from other classes
+	 * 
+	 */
+
+	// instance fields
+	int x; // instance field
+	static int y; // static field
+
+	void f1() { // instance method
+		System.out.println(">>>> instance method f1");
+	}
+
+	static void f2() { // static method f2
+		System.out.println(">>> static metgod f2");
+	}
+
+	public static void main(String[] args) {
+
+		x = 100;
+
+	}
+}

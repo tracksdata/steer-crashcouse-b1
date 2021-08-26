@@ -1,0 +1,42 @@
+package com;
+
+public class Sample {
+	
+	/*
+	 *  1. fields -  behaviour
+	 *  2. methods - actions
+	 *  
+	 * 		-> fields have common behaviour across all objects
+	 * 		-> methods changes  behaviour of fields of a object
+	 * 
+	 * 
+	 *  instance Fields
+	 *  -----------------
+	 *  	-> instance fields are unique to across objects
+	 *  	-> instance data must be accessed with a object from static methods
+	 *  	-> instance data never accessible from static methods
+	 *  	-> to access instance data from static methods we need object cretion
+	 *  		
+	 * 
+	 */
+	
+	// instance fields
+	int x; // instance field
+	static int y; // static field
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+			
+	}
+}
+
+
+
+
